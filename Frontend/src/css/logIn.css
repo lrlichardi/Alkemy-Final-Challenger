@@ -1,0 +1,9 @@
+
+.conteiner-log{
+    width: 25%;
+}
+@media only screen and (max-width: 991px) {
+    .conteiner-log{
+        width: 100% !important;
+    }
+}

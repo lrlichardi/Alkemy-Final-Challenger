@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+}
+.containerAccount{
+    width: 25%;
+}     
+
+.containerTable{
+    width: 75%;
+} 
+
+@media only screen and (max-width: 800px) {
+    .containerIndex{
+        flex-wrap: wrap;
+        width: 100%;
+          }
+    .containerAccount{
+        width: 90% !important;
+        margin-top: 10px;
+    }     
+    .containerTable{
+        margin-left: 0px;
+        width: 90%;
+    } 
+}

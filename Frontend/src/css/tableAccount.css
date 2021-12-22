@@ -1,0 +1,39 @@
+table td[data-titulo]{
+        font-weight: bold;
+    }
+.button-edit{
+    margin-right: 5px;
+}    
+
+@media only screen and (max-width: 991px) {
+    table{
+        width: 100%;
+    }
+    table tr{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    table thead{
+        display: none;
+    }
+
+    table td[data-titulo]{
+        display: flex;
+        font-weight: bold;
+        border: black solid 0.1em;
+    }
+
+    table td[data-titulo]::before{
+        content: attr(data-titulo);
+    }
+    .button-edit{
+        margin-right: 100px !important;
+    }
+    
+    .title-table{
+        text-align: center;
+    }
+    
+}
